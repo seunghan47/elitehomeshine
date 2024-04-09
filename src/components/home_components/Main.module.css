@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.main img {
+  width: 50%;
+  height: auto;
+}
+
+.main h3 {
+  font-size: 60px;
+}
+
+.main p {
+  font-size: 20px;
+}

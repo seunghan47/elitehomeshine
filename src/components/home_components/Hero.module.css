@@ -1,0 +1,27 @@
+.hero {
+  color: white;
+  position: relative;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0.5);
+  clip-path: inset(0 0 25% 0);
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero_text h1 {
+  font-size: 5vw;
+}
+
+.hero_text p {
+  font-size: 1.5vw;
+}
