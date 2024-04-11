@@ -7,19 +7,21 @@
   max-width: 100%;
   height: auto;
   filter: brightness(0.5);
-  clip-path: inset(0 0 25% 0);
+  clip-path: inset(0 0 35% 0);
 }
 
 .hero_text {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  width: 70%;
 }
 
 .hero_text h1 {
-  font-size: 5vw;
+  font-size: 7vw;
+  margin: 0;
 }
 
 .hero_text p {
