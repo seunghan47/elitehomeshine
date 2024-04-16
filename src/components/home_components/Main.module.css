@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
   padding: 5rem 5rem;
   background-color: #efefef;
 }
@@ -27,6 +25,15 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 3rem;
+  }
+
+  .main h3 {
+    text-align: left;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
   }
 }

@@ -1,14 +1,13 @@
 .hero {
   color: white;
   position: relative;
-  margin-bottom: -30rem;
 }
 
 .hero img {
+  margin-top: 2rem;
   max-width: 100%;
   height: auto;
   filter: brightness(0.5);
-  clip-path: inset(0 0 35% 0);
 }
 
 .hero_text {

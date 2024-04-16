@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <img
-        src='hero.avif'
+        src='hero.jpg'
         alt='a clean room'
       />
       <div className={styles.hero_text}>
