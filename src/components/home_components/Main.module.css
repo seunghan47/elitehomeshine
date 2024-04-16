@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-top: 10rem;
   margin-bottom: 10rem;
+  padding: 5rem 5rem;
+  background-color: #efefef;
 }
 
 .main img {
@@ -11,9 +14,19 @@
 }
 
 .main h3 {
-  font-size: 60px;
+  font-size: 3vw;
+  font-weight: lighter;
 }
 
 .main p {
-  font-size: 20px;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 880px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
 }

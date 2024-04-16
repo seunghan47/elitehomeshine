@@ -1,6 +1,7 @@
 .hero {
   color: white;
   position: relative;
+  margin-bottom: -30rem;
 }
 
 .hero img {
