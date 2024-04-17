@@ -18,3 +18,19 @@
   list-style: none;
   font-size: 22px;
 }
+
+.cta {
+  color: white;
+  background-color: #ee1154;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+}
+
+.cta:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  color: #ee1154;
+}

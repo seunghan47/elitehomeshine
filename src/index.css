@@ -17,5 +17,12 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #ee1154;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* opacity: 0.7; */
+}
+
 /* color: #ee1154 */
 /* color: #efefef */

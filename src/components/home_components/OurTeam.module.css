@@ -1,0 +1,43 @@
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 5rem 5rem;
+  background-color: #efefef;
+}
+
+.team img {
+  width: 50%;
+  height: auto;
+}
+
+.team h1 {
+  font-size: 3vw;
+  font-weight: lighter;
+}
+
+.team p {
+  font-size: 1.5vw;
+}
+
+.button {
+  width: 30vw;
+}
+
+@media (max-width: 880px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 3rem;
+  }
+
+  .team h1 {
+    text-align: left;
+  }
+
+  .team img {
+    width: 100%;
+    height: auto;
+  }
+}

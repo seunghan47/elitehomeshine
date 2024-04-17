@@ -1,8 +1,8 @@
 import React from "react";
-import Main from "../components/home_components/Main";
+import AboutUs from "../components/home_components/AboutUs";
 import Hero from "../components/home_components/Hero";
 import Services from "../components/home_components/Services";
-import HowItWorks from "../components/home_components/HowItWorks";
+import OurTeam from "../components/home_components/OurTeam";
 import Testimonials from "../components/home_components/Testimonials";
 import FAQ from "../components/home_components/FAQ";
 import Contact from "../components/home_components/Contact";
@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Main />
+      <AboutUs />
       <Services />
-      <HowItWorks />
+      <OurTeam />
       <Testimonials />
       <FAQ />
       <Contact />

@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Main.module.css";
-const Main = () => {
+import styles from "./AboutUs.module.css";
+const AboutUs = () => {
   return (
     <div className={styles.main}>
       <img
@@ -22,4 +22,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default AboutUs;
