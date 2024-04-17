@@ -8,7 +8,7 @@ const AboutUs = () => {
         alt='cleaning lady'
       />
       <div>
-        <h3>About Us</h3>
+        <h1>About Us</h1>
         <p>
           At EliteHomeShine, we pride ourselves on delivering top-tier luxury home cleaning and maintenance services.
           With meticulous attention to detail and a dedication to exceeding our clients' expectations, we ensure that
