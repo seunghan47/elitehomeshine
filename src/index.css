@@ -15,6 +15,7 @@ code {
 h1 {
   font-size: 5vw;
   font-weight: lighter;
+  margin: 0;
 }
 
 a {
@@ -26,6 +27,7 @@ a:hover {
   color: #ee1154;
   text-decoration: underline;
   text-underline-offset: 10px;
+  transition: 500ms;
   /* opacity: 0.7; */
 }
 

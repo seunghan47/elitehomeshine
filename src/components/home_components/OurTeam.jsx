@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./OurTeam.module.css";
 import Button from "../../util/Button";
 
-const HowItWorks = () => {
+const OurTeam = () => {
   return (
     <div className={styles.team}>
       <div className={styles.team_text}>
@@ -13,7 +13,7 @@ const HowItWorks = () => {
           luxury to every space we clean.
         </p>
         <p>Want to be part of our cleaning team?</p>
-        <Button className={styles.button}>Join our team</Button>
+        <Button className={styles.btn}>Join our team</Button>
       </div>
       <img
         src='team.jpg'
@@ -23,4 +23,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default OurTeam;

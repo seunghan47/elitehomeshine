@@ -18,7 +18,7 @@ const AboutUs = () => {
           estate or a cozy apartment. Experience the epitome of cleanliness and sophistication with EliteHomeShine,
           where every clean is an elite experience.
         </p>
-        <Button className={styles.btn}>Find out more </Button>
+        <Button className={styles.btn}>Find out more</Button>
       </div>
     </div>
   );

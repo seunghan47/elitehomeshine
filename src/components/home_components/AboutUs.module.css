@@ -15,10 +15,6 @@
   font-size: 1.5vw;
 }
 
-.btn {
-  width: 20vw;
-}
-
 @media (max-width: 880px) {
   .main {
     display: flex;
