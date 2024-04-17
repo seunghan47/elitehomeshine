@@ -1,0 +1,21 @@
+.services {
+  margin-bottom: 5rem;
+}
+
+.services h1 {
+  font-size: 90px;
+  color: #ee1154;
+  font-weight: lighter;
+}
+
+.service_container {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.service_container img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}

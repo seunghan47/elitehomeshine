@@ -1,0 +1,44 @@
+.form {
+  background-color: #efefef;
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+
+.form h1 {
+  color: #ee1154;
+  font-size: 90px;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  margin-bottom: 1rem;
+  font-size: 22px;
+  padding-left: 10px;
+  width: 40vw;
+  min-width: 400px;
+}
+
+.form label {
+  font-size: 22px;
+}
+
+.form textarea {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40vw;
+  height: 30vh;
+  margin-bottom: 0.5rem;
+  min-width: 400px;
+}
+
+.button {
+  background-color: #ee1154;
+  color: white;
+  border: 10px;
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px 0;
+  font-size: 22px;
+}
