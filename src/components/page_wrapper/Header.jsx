@@ -41,11 +41,26 @@ const Header = () => {
         <li>
           <NavLink
             end
+            className={({ isActive }) => (isActive ? styles.active : undefined)}
+            to='/Career'
+          >
+            Careers
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            end
             className={({ isActive }) => (isActive ? styles.cta : undefined)}
           >
             Book Now!
           </NavLink>
         </li>
+
+        <div className={styles.burgers}>
+          <div className={styles.burger}></div>
+          <div className={styles.burger}></div>
+          <div className={styles.burger}></div>
+        </div>
       </nav>
     </header>
   );

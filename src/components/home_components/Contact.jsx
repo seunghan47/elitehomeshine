@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { useState } from "react";
+import Button from "../../util/Button";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -64,7 +65,7 @@ const Contact = () => {
             onChange={(event) => updateField("message", event.target.value)}
           />
         </div>
-        <button className={styles.button}>Submit!</button>
+        <Button className={styles.button}>Submit!</Button>
       </form>
     </div>
   );

@@ -34,3 +34,7 @@
 .active {
   color: #ee1154;
 }
+
+.burger {
+  display: none;
+}

@@ -6,4 +6,10 @@
   width: 25%;
   padding: 10px 0;
   font-size: 2vw;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff4d7a;
+  cursor: pointer;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./Services.module.css";
+import Button from "../../util/Button";
+
 const Services = () => {
   return (
     <div className={styles.services}>
-      <h1>Our Services</h1>
+      <h1 style={{ marginLeft: "16px" }}>Our Services</h1>
       <div className={styles.service_container}>
         <div className={styles.service_items}>
           <img
@@ -42,6 +44,7 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <Button className={styles.btn}>Discover our Services</Button>
     </div>
   );
 };

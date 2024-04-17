@@ -1,6 +1,6 @@
 .services {
   margin-bottom: 5rem;
-  padding: 5rem 5rem;
+  padding: 2rem 5rem;
 }
 
 .service_container {
@@ -17,6 +17,10 @@
 
 .service_items {
   flex: 1;
+}
+
+.btn {
+  margin-left: 1rem;
 }
 
 @media (max-width: 880px) {

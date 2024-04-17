@@ -18,6 +18,7 @@ const Footer = () => {
         <p>Polim</p>
         <p>Our Cleaners</p>
         <p>Our Lawyer</p>
+        <p>Our SRE</p>
       </div>
       <div>
         <h3>Services</h3>
