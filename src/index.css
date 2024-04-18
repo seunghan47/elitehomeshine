@@ -33,3 +33,25 @@ a:hover {
 
 /* color: #ee1154 */
 /* color: #efefef */
+
+input {
+  margin-bottom: 1rem;
+  font-size: 22px;
+  padding-left: 10px;
+  width: 40vw;
+  min-width: 400px;
+}
+
+label {
+  font-size: 22px;
+  display: block;
+}
+
+textarea {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40vw;
+  height: 30vh;
+  margin-bottom: 0.5rem;
+  min-width: 400px;
+}

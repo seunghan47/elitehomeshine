@@ -8,7 +8,7 @@ const Footer = () => {
         <p>(123)-456-7890</p>
         <p>limun@gmail.com</p>
         <p>
-          1234 bojangles Unit 2219 <br />
+          6974 Smurf City 2219 <br />
           Brookhaven GA 31909
         </p>
       </div>

@@ -37,37 +37,42 @@ const BookNow = () => {
 
       <form onSubmit={handleSubmitForm}>
         <div className={styles.form_element}>
-          <label htmlFor='name'></label>
+          <label htmlFor='name'>Name:</label>
           <input
             type='text'
             name='name'
             onChange={(event) => handleChangeInput("name", event.target.value)}
+            value={formData.name}
           />
         </div>
         <div className={styles.form_element}>
-          <label htmlFor='email'></label>
+          <label htmlFor='email'>Email:</label>
           <input
             type='email'
             name='email'
             onChange={(event) => handleChangeInput("email", event.target.value)}
+            value={formData.email}
           />
         </div>
         <div className={styles.form_element}>
-          <label htmlFor='tel'></label>
+          <label htmlFor='tel'>Phone:</label>
           <input
             type='tel'
             name='tel'
             onChange={(event) => handleChangeInput("tel", event.target.value)}
+            value={formData.tel}
           />
         </div>
         <div className={styles.form_element}>
-          <label htmlFor='address'></label>
+          <label htmlFor='address'>Address:</label>
           <input
             type='text'
             name='address'
             onChange={(event) => handleChangeInput("address", event.target.value)}
+            value={formData.address}
           />
         </div>
+        <button className={styles.button}>Get Instant Quote</button>
       </form>
     </div>
   );

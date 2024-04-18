@@ -9,10 +9,15 @@
 .main img {
   width: 50%;
   height: auto;
+  border-radius: 30px;
 }
 
 .main p {
   font-size: 1.5vw;
+}
+
+.btn {
+  width: 30vw;
 }
 
 @media (max-width: 880px) {

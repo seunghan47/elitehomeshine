@@ -1,0 +1,17 @@
+.faqPage {
+  padding: 5rem 5rem;
+}
+
+.faqPage h1 {
+  color: #ee1154;
+  margin-bottom: 5rem;
+}
+
+.faq {
+  text-align: left;
+}
+
+.faq h3 {
+  font-size: 30px;
+  cursor: pointer;
+}
