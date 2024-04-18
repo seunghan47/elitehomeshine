@@ -16,7 +16,7 @@ const Hero = () => {
           commitment to excellence, our team ensures that every corner of your home radiates cleanliness and freshness.
           Experience the difference with EliteHomeShine and elevate not only your home but your entire lifestyle.
         </p>
-        <Button>Get Started!</Button>
+        <Button className={styles.btn}>Get Started!</Button>
       </div>
     </div>
   );

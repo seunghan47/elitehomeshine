@@ -65,7 +65,7 @@ const Contact = () => {
             onChange={(event) => updateField("message", event.target.value)}
           />
         </div>
-        <Button className={styles.button}>Submit!</Button>
+        <Button className={styles.btn}>Submit!</Button>
       </form>
     </div>
   );

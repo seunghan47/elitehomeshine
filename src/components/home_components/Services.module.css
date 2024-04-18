@@ -21,6 +21,7 @@
 
 .btn {
   margin-left: 1rem;
+  width: 30vw;
 }
 
 @media (max-width: 880px) {
