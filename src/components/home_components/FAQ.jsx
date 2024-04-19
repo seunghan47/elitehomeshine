@@ -14,7 +14,13 @@ const FAQ = () => {
       <h1 style={{ textAlign: "center" }}>FAQ Page</h1>
       {FAQlist.map((item, index) => (
         <div className={styles.faq}>
-          <h3 onClick={() => toggleItem(index)}>{item.question}</h3>
+          <div
+            className={styles.faq_container}
+            onClick={() => toggleItem(index)}
+          >
+            <h3>{item.question}</h3>
+            <p style={{ fontSize: "32px" }}>+</p>
+          </div>
           {expandItems[index] && <p>{item.answer}</p>}
           <hr />
         </div>

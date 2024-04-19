@@ -5,7 +5,7 @@ import Button from "../../util/Button";
 const Services = () => {
   return (
     <div className={styles.services}>
-      <h1 style={{ marginLeft: "16px" }}>Our Services</h1>
+      <h1 style={{ marginLeft: "16px", marginBottom: "2rem" }}>Our Services</h1>
       <div className={styles.service_container}>
         <div className={styles.service_items}>
           <img

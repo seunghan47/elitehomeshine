@@ -13,5 +13,11 @@
 
 .faq h3 {
   font-size: 30px;
+}
+
+.faq_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
 }

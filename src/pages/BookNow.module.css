@@ -1,5 +1,14 @@
+.BookNow_page {
+  background-color: #efefef;
+}
+
+.BookNow_page h1 {
+  text-align: center;
+}
+
 .bookNow {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .bookNow img {
@@ -13,12 +22,15 @@
   position: absolute;
   text-align: center;
   color: white;
-  width: 80%;
+  width: 90%;
   left: 50%;
   top: 20%;
   text-transform: uppercase;
 }
 
-.BookNow_page h1 {
-  text-align: center;
+.form_container {
+  padding: 5rem;
+}
+.btn {
+  width: 40vw;
 }
