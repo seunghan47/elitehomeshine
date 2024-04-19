@@ -30,7 +30,7 @@ const BookNow = () => {
         />
         <div className={styles.text}>
           <h1>GET THE FREEDOM YOU DESERVE</h1>
-          <h1>Get Your Instant Quote Here</h1>
+          <h1>Get Your Instant Quote Hdere</h1>
           <h2>Fill out the Form Below to Book Your Cleaner Now</h2>
         </div>
       </div>
