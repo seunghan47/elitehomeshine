@@ -3,14 +3,29 @@ import styles from "./BookNow.module.css";
 import Button from "../util/Button";
 
 const BookNow = () => {
+  const url = "http://localhost:8080/booking/totalCost";
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     address: "",
     tel: "",
   });
+  const [totalCost, setTotalCost] = useState();
   const handleSubmitForm = (event) => {
     event.preventDefault();
+
+    const fetchtotal = async () => {
+      const response = await fetch(url);
+      if (!response) {
+        throw new Error("Error retreiving totalCost");
+      } else {
+        const responseData = await response.json();
+        setTotalCost(responseData);
+      }
+    };
+
+    fetchtotal();
+    console.log(totalCost);
   };
 
   const handleChangeInput = (identifier, value) => {
