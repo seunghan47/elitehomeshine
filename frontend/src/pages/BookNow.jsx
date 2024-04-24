@@ -3,38 +3,9 @@ import styles from "./BookNow.module.css";
 import Button from "../util/Button";
 
 const BookNow = () => {
-  const url = "http://localhost:8080/booking/totalCost";
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    address: "",
-    tel: "",
-  });
+  // const url = "http://localhost:8080/booking/totalCost";
+
   const [totalCost, setTotalCost] = useState();
-  const handleSubmitForm = (event) => {
-    event.preventDefault();
-
-    const fetchtotal = async () => {
-      const response = await fetch(url);
-      if (!response) {
-        throw new Error("Error retreiving totalCost");
-      } else {
-        const responseData = await response.json();
-        setTotalCost(responseData);
-      }
-    };
-
-    fetchtotal();
-    console.log(totalCost);
-  };
-
-  const handleChangeInput = (identifier, value) => {
-    setFormData((prev) => ({
-      ...prev,
-      [identifier]: value,
-    }));
-    console.log(formData);
-  };
 
   return (
     <div className={styles.BookNow_page}>
@@ -45,14 +16,53 @@ const BookNow = () => {
         />
         <div className={styles.text}>
           <h1>GET THE FREEDOM YOU DESERVE</h1>
-          <h1>Get Your Instant Quote Hdere</h1>
+          <h1>Get Your Instant Quote Here</h1>
           <h2>Fill out the Form Below to Book Your Cleaner Now</h2>
         </div>
       </div>
 
       <div className={styles.form_container}>
         <h1>Get a Free Estimate</h1>
-        <form onSubmit={handleSubmitForm}>
+
+        <div>
+          <label htmlFor=''>Cost: </label>
+          <h1>{totalCost}</h1>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BookNow;
+
+// long id;
+// private int bedNum;
+// private int bahtNum;
+// private int electronicNums;
+// private boolean hasPet;
+// private boolean electronics;
+// private boolean laundry;
+// const fetchtotal = async () => {
+//   const response = await fetch(url);
+//   if (!response) {
+//     throw new Error("Error retreiving totalCost");
+//   } else {
+//     const responseData = await response.json();
+//     setTotalCost(responseData);
+//   }
+// };
+
+// fetchtotal();
+// console.log(totalCost);
+
+// const [formData, setFormData] = useState({
+//   name: "",
+//   email: "",
+//   address: "",
+//   tel: "",
+// });
+// {
+/* <form onSubmit={handleSubmitForm}>
           <div className={styles.form_element}>
             <label htmlFor='name'>Name:</label>
             <input
@@ -90,10 +100,5 @@ const BookNow = () => {
             />
           </div>
           <Button className={styles.btn}>Get Instant Quote</Button>
-        </form>
-      </div>
-    </div>
-  );
-};
-
-export default BookNow;
+        </form> */
+// }
