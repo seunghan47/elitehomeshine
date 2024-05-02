@@ -1,3 +1,18 @@
 .careerPage {
   background-color: #efefef;
+  padding: 5rem;
+}
+
+.career p {
+  font-size: 22px;
+}
+
+.form_group input,
+select {
+  width: 40vw;
+  height: 2rem;
+}
+
+.button {
+  width: 20vw;
 }
